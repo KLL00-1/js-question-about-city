@@ -1,0 +1,38 @@
+img {
+  max-width: 100%;
+}
+body {
+  background-color: aquamarine;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.questions {
+  border-radius: 10px;
+  border: 2px solid black;
+  max-width: 800px;
+  max-height: 800px;
+  background-color: bisque;
+  text-align: center;
+}
+.container {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  opacity: 60%;
+  box-shadow: 0 0 15px white;
+}
+h1 {
+  color: aquamarine;
+  text-align: center;
+}
