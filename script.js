@@ -5,5 +5,7 @@ const right = document.getElementById("right");
 submit.onclick = () => {
   if (yes.checked) {
     right.classList.toggle("container");
+  } else {
+    window.alert("false");
   }
 };
